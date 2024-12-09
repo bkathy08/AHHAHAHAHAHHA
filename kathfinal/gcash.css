@@ -1,0 +1,109 @@
+/* Body and General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d4ed8; /* GCash blue background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Slight transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Styling */
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Heading and Text */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #f3f4f6; /* Light gray */
+}
+
+strong {
+    color: #ffffff;
+}
+
+/* Form Elements */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #63b3ed; /* Light blue on focus */
+}
+
+button {
+    background-color: #3182ce; /* Button background blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+}
+
+/* Small Text for Instructions */
+.text-sm {
+    font-size: 0.875rem;
+    color: #e2e8f0; /* Light gray */
+    margin-bottom: 20px;
+}
+
+/* Hover Effects for Buttons */
+button:hover {
+    background-color: #2b6cb0;
+}
+
+/* Footer Link */
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8rem;
+    color: #d1d5db; /* Gray text */
+}
+
+footer a {
+    color: #63b3ed;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
